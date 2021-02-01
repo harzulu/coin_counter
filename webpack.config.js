@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'tdd-template',
+      title: 'coin_counter',
       template: './src/index.html',
       inject: 'body'
     })

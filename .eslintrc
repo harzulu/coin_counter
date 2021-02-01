@@ -18,7 +18,7 @@
   "overrides": [
     {
       "files": [
-        "./__tests__/project.test.js"
+        "./__tests__/coin_counter.test.js"
       ],
       "env": {
         "jest": true

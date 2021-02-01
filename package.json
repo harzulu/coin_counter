@@ -1,5 +1,5 @@
 {
-  "name": "JavaScript-Template",
+  "name": "coin_counter",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -11,7 +11,9 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["html"]
+    "coverageReporters": [
+      "html"
+    ]
   },
   "keywords": [],
   "author": "",
