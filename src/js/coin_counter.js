@@ -5,6 +5,6 @@ export class Counter {
   }
 
   givenInput(number) {
-    return number;
+    return number + 1;
   }
 }
