@@ -27,6 +27,29 @@ export class Counter {
 }
 
 /*
+---Working Code---
+function countCoins(coins) {
+  return function(value) {
+    if (value === 0)
+    {
+      return [];
+    } 
+    else 
+    {
+      if (value >= coins[0]) {
+        const left = (value - coins[0]);
+        return [coins[0]].concat(this.countCoins(coins)(left));
+      }
+      else
+      {
+        coins.shift();
+        return this.countCoins(coins)(value);
+      }
+    }
+  }
+}
+-----------
+
 function countCoins(value, arr) {
   if (value === 0)
   {
@@ -50,36 +73,4 @@ function countCoins(value, arr) {
   }
 }
 
-*/
-
-/*
-export class Counter {
-  constructor(initValue) {
-    this.initValue = initValue;
-  }
-  function coins(coinValue) {
-    return function(initValue) {
-      return this.initValue * 100 ;
-    }
-    if (initValue === 0)
-      {
-        return [];
-      } 
-      else 
-      {
-        if (initValue >= coinsValue[0]) {
-          const left = (initValue - coinsValue[0]);
-          return [coinsValue[0]].concat(this.coins(left, coinsValue));
-        }
-        else
-        {
-          coinsValue.shift();
-          return this.coins(initValue, coinsValue);
-        }
-      }
-  }
-}
-
-const countCoins = coins([25, 10, 5, 1]);
-countCoins(4.85);
 */
