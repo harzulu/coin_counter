@@ -1,10 +1,10 @@
-# [Project Name]
+# Coin Counter
 
-## [Brief summary], [Current version date]
+## Counter to find out what coins will add up to be a given dollar ammount, Feb. 1st 2021
 
-### Ben McFarland
+### Ben McFarland, Jerrod Styrk, Kevin Kirkley
 
-[Deatiled full description of the whole program]
+This is a practice project for Epicodus to practice Functional Programming conventions
 
 ## Setup/Installation Requirements
 
@@ -50,4 +50,4 @@ The live version is at this link:
 
 This project is licensed under the GPL license.
 
-Copyright (c) 2020 Ben McFarland
+Copyright (c) 2020 Ben McFarland, Jerrod Styrk, Kevin Kirkley
